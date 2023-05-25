@@ -1,0 +1,172 @@
+#TITLE:Unknown
+#ARTIST:Unknown
+#MP3:vocals.mp3
+#BPM:100
+#GAP:0
+#CREATOR:Composer
+: 52 6 28 Guar
+: 59 7 30 do 
+: 66 2 28 gli 
+: 68 2 26 a
+: 70 2 26 si
+: 71 2 25 ni
+- 73
+: 73 2 28 che 
+: 76 9 30 vo
+: 84 2 28 la
+: 86 2 25 no 
+: 89 1 22 nel 
+: 90 1 22 ciel 
+: 98 3 30 Ma 
+: 100 2 26 le 
+: 102 3 26 papere 
+: 105 1 26 sulle 
+: 106 3 25 nuvole 
+- 110
+: 110 2 25 si 
+: 112 2 25 divertono 
+: 114 1 23 a 
+: 115 3 23 fare 
+: 118 1 23 i 
+: 119 1 23 ci
+: 121 2 26 gni 
+: 123 3 26 nel 
+: 126 2 26 ru
+: 127 2 28 scel 
+- 130
+: 130 4 26 bianco 
+: 134 5 26 come in
+: 139 6 30 chio
+: 145 4 28 stro 
+- 150
+: 150 8 21 Van
+: 158 4 30 no 
+: 162 2 30 i 
+: 164 3 28 tre
+: 167 1 25 ni 
+: 169 2 27 so
+: 171 3 25 pra 
+- 174
+: 174 3 26 il 
+: 177 5 30 ma
+: 182 2 30 re 
+: 184 2 28 tut
+: 186 1 23 to 
+: 187 2 23 blu 
+- 193
+: 197 3 30 E 
+: 200 2 26 le 
+: 202 3 25 gondole 
+: 205 3 25 bianche 
+- 207
+: 207 3 25 Sbocciano 
+: 211 1 24 nel 
+: 212 3 22 crepuscolo 
+- 215
+: 215 5 22 Sulle 
+: 220 4 24 canne 
+: 224 2 29 dei 
+: 226 4 29 bambù 
+- 231
+: 233 2 33 Du 
+: 235 1 30 du 
+: 237 2 25 du 
+: 239 1 28 du 
+: 240 4 25 du 
+- 302
+: 359 5 21 Ques
+: 365 5 30 te 
+: 371 4 28 stra
+: 375 3 26 ne 
+: 378 3 25 co
+: 382 3 27 se 
+- 385
+: 385 8 30 Ve
+: 392 2 28 do 
+: 394 2 25 ed 
+: 396 1 22 alt
+: 397 1 18 ro 
+: 398 6 18 ancor 
+- 406
+: 408 2 30 quan
+: 409 2 26 do 
+: 411 2 24 ticchete 
+: 413 1 24 tic
+: 415 2 24 che 
+- 417
+: 417 3 24 ticchete 
+: 420 1 21 tic
+: 422 1 21 che 
+: 424 2 21 ticchete 
+- 426
+: 426 2 27 sen
+: 428 2 21 to 
+: 430 1 26 che 
+: 431 1 26 è 
+: 432 4 26 guarito 
+: 436 1 28 il 
+: 437 4 26 cuor 
+- 441
+: 442 2 28 Dall'
+: 444 1 30 e
+: 445 1 28 sta
+: 446 3 26 si 
+: 449 1 23 d'a
+: 450 4 26 mor 
+- 558
+: 662 9 25 Guardo 
+: 671 5 21 gli 
+: 676 5 30 asini 
+: 682 5 28 che 
+: 687 5 25 volano 
+: 692 5 26 nel 
+: 697 5 30 ciel 
+- 702
+: 702 5 30 Ma 
+: 707 5 21 le 
+: 712 5 30 papere 
+: 718 5 30 sulle 
+: 723 5 25 nuvole 
+- 728
+: 728 5 25 si 
+: 733 5 23 divertono 
+: 738 5 22 a 
+: 743 5 26 fare 
+: 748 5 25 i 
+: 753 5 30 cigni 
+: 759 5 30 nel 
+: 764 5 28 ruscel 
+- 769
+: 769 5 21 Bianco 
+: 774 5 21 come 
+: 779 5 30 inchiostro 
+- 784
+: 784 5 28 Vanno 
+: 789 5 26 i 
+: 795 5 26 treni 
+: 800 5 30 sopra 
+: 805 5 25 il 
+: 810 5 24 mare 
+: 815 5 30 tutto 
+: 820 5 26 blu 
+- 825
+: 825 5 26 E 
+: 830 5 25 le 
+: 836 5 23 gondole 
+: 841 5 24 bianche 
+- 846
+: 846 5 22 Sbocciano 
+: 851 5 24 nel 
+: 856 5 29 crepuscolo 
+- 861
+: 861 5 28 Sulle 
+: 866 5 28 canne 
+: 872 5 26 dei 
+: 877 5 23 bambù 
+- 882
+: 882 5 26 Du 
+: 887 5 26 du 
+: 892 5 26 du 
+: 897 5 26 du 
+: 902 3 24 du 
+E
