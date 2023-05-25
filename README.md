@@ -20,6 +20,9 @@ For each song you'll need to generate a txt file with the lyrics, notes and time
 There's an example in the repository, in the folder `Guardo Gli Asini che volano UltraStar TXT`.
 
 Ultrastar play can probably be used to create a txt file.
+
+This video shows how to use it: https://www.youtube.com/watch?v=osKizOyXYFQ
+
 I'm not sure if it's the best software for the job.
 Figuring out what software to use is part of the job.
 
