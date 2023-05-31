@@ -1,31 +1,12 @@
-Karaoke transcription job
-=========================
+Bevete più latte
+================
 
-What's in this repository
--------------------------
+Il coro dei BiRiCHiNi canta queste canzoni:
 
-This repository contains the songs for the transcription job.
-
-For each song you'll find:
-
-* A normal version
-* A version with only vocals
-* A version with no vocals
-* The song text
-
-What needs to be done
----------------------
-
-For each song you'll need to generate a txt file with the lyrics, notes and timestamps.
-There's an example in the repository, in the folder `Guardo Gli Asini che volano UltraStar TXT`.
-
-Ultrastar play can probably be used to create a txt file.
-
-This video shows how to use it: https://www.youtube.com/watch?v=osKizOyXYFQ
-
-I'm not sure if it's the best software for the job.
-Figuring out what software to use is part of the job.
-
-[Mac version](https://github.com/UltraStar-Deluxe/Play/releases/download/v0.9.0/UltraStarPlay-v0.9.0-macOS.zip)
-
-[Windows version](https://github.com/UltraStar-Deluxe/Play/releases/download/v0.9.0/UltraStarPlay-v0.9.0-Windows64.zip)
+* Bevete più latte
+* Cacao Meravigliao
+* Sitting Bull
+* Guarda come dondolo
+* Guardo gli asini che volano
+* Torero Camomillo
+* Viva la pappa col pomodoro
