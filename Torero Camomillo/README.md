@@ -1,3 +1,10 @@
+Torero Camomillo
+================
+
+Testo: Franco Maresca
+Musica: Mario Pagano
+
+```
 Lallara lallara lallara lalla la olè
 Già il toro è nell'arena
 Però non c'è il torero
@@ -82,3 +89,4 @@ olè
 olè
 Olé Olé Olè
 olè
+```

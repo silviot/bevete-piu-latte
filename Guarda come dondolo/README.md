@@ -6,6 +6,7 @@ Testo di Carlo Rossi e musica di Edoardo Vianello.
 Testo
 -----
 
+```
 Guarda come dondolo,
 guarda come dondolo Con il twist
 Con le gambe ad angolo,
@@ -90,7 +91,7 @@ lalla la la la
 bi di bom
 bi di bom
 bi di bom
-
+```
 
 Spartito
 --------

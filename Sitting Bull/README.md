@@ -1,3 +1,8 @@
+Sitting Bull
+============
+
+
+```
 Questa è la storia di Sitting Bull
 In italiano: Toro Seduto.
 Stava seduto, non s'alzava mai,
@@ -69,3 +74,4 @@ Dritto in piedi non sta più.
 Dritto in piedi non sta più.
 
 Aug!
+```
