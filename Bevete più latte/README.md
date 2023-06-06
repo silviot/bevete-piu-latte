@@ -1,3 +1,10 @@
+Bevete più latte
+================
+
+Di Nino Rota
+Da "Le tentazioni del dottor Antonio", Boccaccio '70, 1962
+
+```
 Bevete più latte,
 il latte fa bene,
 il latte conviene, a tutte le età.
@@ -38,3 +45,4 @@ Bevete più laaaa
 Bevete più lat-te.
 
 Bevete più lat-te!
+```
