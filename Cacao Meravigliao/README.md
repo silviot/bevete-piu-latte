@@ -3,7 +3,8 @@ Cacao Meravigliao
 
 Renzo Arbore, Paola Cortellesi, Nino Frassica
 
-[Cacao Meravigliao](!video.mp4)
+
+![Cacao_Meravigliao](Cacao%20Meravigliao.png)
 
 Testo
 -----
