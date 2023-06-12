@@ -35,7 +35,7 @@ render_video() {
         echo "No .wav file found in $DIR"
         return
     fi
-    if [ -z ${IMAGE_FILE} ]; then
+    if [ -z "${IMAGE_FILE}" ]; then
         echo "No .png file found in $DIR"
         return
     fi
@@ -45,30 +45,20 @@ render_video() {
     if [ "$IMAGE_DIMENSIONS" != "$RESOLUTION" ]; then
         echo "Image dimensions do not match $RESOLUTION"
         echo "Run this command to convert the image:"
-        echo "convert $IMAGE_FILE -resize $RESOLUTION -background black -gravity center -extent $RESOLUTION $IMAGE_FILE"
+        echo "convert \"$IMAGE_FILE\" -resize $RESOLUTION -background black -gravity center -extent $RESOLUTION $IMAGE_FILE"
         return
     fi
+
+    # Generate a temporary file name for the lyrics file
+    LYRICS_FILE=$(mktemp)
 
     # Generate an ass file from the Ultrastar Deluxe one, to use later via ffmpeg
-    npx ultrastar2ass *.txt > /tmp/lyrics.ass
-    if [ -z ${AUDIO_FILE} ]; then
-        echo "No .wav file found in $DIR"
-        return
-    fi
-    if [ -z ${IMAGE_FILE} ]; then
-        echo "No .png file found in $DIR"
-        return
-    fi
-
-
-    # Generate an ass file from the Ultrastar Deluxe one, to use later via ffmpeg
-    npx ultrastar2ass *.txt > /tmp/lyrics.ass
-
+    npx ultrastar2ass *.txt > ${LYRICS_FILE}
 
     # Create a video using ffmpeg, combining the image and the mp3 file
-    # and the ass file /tmp/lyrics.ass
+    # and the ass file ${LYRICS_FILE}
     echo Building a video from $AUDIO_FILE and $IMAGE_FILE
-    ffmpeg -y -loop 1 -i "$IMAGE_FILE" -i "$AUDIO_FILE" -vf "scale=$RESOLUTION,ass=/tmp/lyrics.ass" -shortest -c:v libx264 -tune stillimage -crf 28 -c:a aac -b:a 192k video.mp4
+    ffmpeg -y -loop 1 -i "$IMAGE_FILE" -i "$AUDIO_FILE" -vf "scale=$RESOLUTION,ass=${LYRICS_FILE}" -shortest -c:v libx264 -tune stillimage -crf 28 -c:a aac -b:a 192k video.mp4
 }
 
 for arg in "$@"
