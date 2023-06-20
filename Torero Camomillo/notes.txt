@@ -1,6 +1,7 @@
 ﻿#ENCODING:UTF8
 #TITLE:Torero Camomillo
-#ARTIST:06
+#ARTIST:Franco Maresca/Mario Pagano
+#BACKGROUND:background.png
 #MP3:12 no_vocals.wav
 #BPM:239.12
 #GAP:125

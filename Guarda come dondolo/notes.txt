@@ -1,7 +1,7 @@
 ﻿#ENCODING:UTF8
 #TITLE:Guarda come dondolo
 #ARTIST:Carlo Rossi e Edoardo Vianello
-#MP3:08 Guarda come dondolo sing along.mp3
+#MP3:no_vocals.flac
 #BPM:320
 #GAP:12375
 : 0 3 4 Guar

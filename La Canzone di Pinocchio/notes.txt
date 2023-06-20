@@ -1,7 +1,9 @@
 #ENCODING:UTF8
 #TITLE:La canzone di Pinocchio
 #ARTIST:08
-#MP3:16 La canzone di Pinocchio sing along.mp3
+#MP3:no_vocals.flac
+#COVER:cover.png
+#BACKGROUND:background.png
 #BPM:230
 #GAP:29478
 : 0 4 9 Tie

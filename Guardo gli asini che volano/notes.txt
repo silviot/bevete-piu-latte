@@ -1,7 +1,9 @@
 ﻿#ENCODING:UTF8
 #TITLE:Guardo gli asini che volano
 #ARTIST:Alberto Sordi
-#MP3:10 Guardo gli asini che volano sing along.mp3
+#MP3:no_vocals.flac
+#COVER:cover.png
+#BACKGROUND:background.png
 #BPM:258.32
 #GAP:7839
 : 0 16 -3 Guar
