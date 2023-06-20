@@ -1,7 +1,9 @@
 ﻿#ENCODING:UTF8
 #TITLE:Bevete più latte
 #ARTIST:Nino Rota
-#MP3:02 Bevete più Latte sing along.mp3
+#MP3:no_vocals.mp3
+#COVER:cover.png
+#BACKGROUND:background.png
 #BPM:226
 #GAP:8628
 : 0 2 7 Be

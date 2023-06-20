@@ -1,7 +1,8 @@
 ﻿#ENCODING:UTF8
 #TITLE:Viva la pappa col pomodoro
-#ARTIST:07
+#ARTIST:Rita Pavone
 #MP3:no_vocals.mp3
+#COVER:cover.png
 #BPM:174.19
 #GAP:2583
 : 0 4 4 Vi
