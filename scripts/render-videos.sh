@@ -71,7 +71,7 @@ render_video() {
         # Create a video using ffmpeg, combining the image and the flac file
         # and the ass file ${LYRICS_FILE}
         echo Building a video from no_vocals.flac and $ffmpeg_txt_file
-        ffmpeg -y -i "no_vocals.flac" -f concat -safe 0 -i "$ffmpeg_txt_file" -r 24 -vf "fps=24,subtitles=${LYRICS_FILE}:fontsdir=../fonts" -c:a aac -b:a 192k -preset ultrafast -shortest video-karaoke.mp4
+        ffmpeg -y -i "no_vocals.flac" -f concat -safe 0 -i "$ffmpeg_txt_file" -r 24 -vf "fps=24,subtitles=${LYRICS_FILE}:fontsdir=../fonts" -c:a aac -b:a 192k -c:v libx264 -preset fast -shortest video-karaoke.mp4
     fi
 
     if [ -f "video.mp4" ] && [ "video.mp4" -nt "notes.txt" ] && [ "video.mp4" -nt "$IMAGE_FILE" ] && [ "video.mp4" -nt "song.flac" ]; then
@@ -80,7 +80,7 @@ render_video() {
         # Create a video using ffmpeg, combining the image and the flac file
         # and the ass file ${LYRICS_FILE}
         echo Building a video from song.flac and $ffmpeg_txt_file
-        ffmpeg -y -i "song.flac" -f concat -safe 0 -i "$ffmpeg_txt_file" -r 24 -vf "fps=24,subtitles=${LYRICS_FILE}:fontsdir=../fonts" -c:a aac -b:a 192k -preset ultrafast -shortest video.mp4
+        ffmpeg -y -i "song.flac" -f concat -safe 0 -i "$ffmpeg_txt_file" -r 24 -vf "fps=24,subtitles=${LYRICS_FILE}:fontsdir=../fonts" -c:a aac -b:a 192k -c:v libx264 -preset fast -shortest video.mp4
     fi
 
 }
@@ -92,8 +92,10 @@ generate_ffmpeg_txt() {
     # Loop through the image files and append FFmpeg commands to the temporary file
     while IFS= read -r -d $'\0' FILE; do
         echo "file '$FILE'" >> $TMP_FILE
-        echo "duration 20" >> $TMP_FILE
-    done < <(find "$PWD" -maxdepth 1 -name 'background*.png' -print0)
+        echo "duration 19" >> $TMP_FILE
+        echo "file '$FILE'" >> $TMP_FILE
+        echo "duration 1" >> $TMP_FILE
+    done < <(find "$PWD" -maxdepth 1 -name 'background*.png' -print0| sort -z)
     # Repeat the content of the file 30 times
     for i in {1..30}; do
         cat $TMP_FILE >> $TMP_FILE.txt
