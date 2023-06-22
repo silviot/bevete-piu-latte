@@ -29,7 +29,7 @@ https://github.com/silviot/bevete-piu-latte/assets/396425/7d9fcee8-2fb1-4a27-b5b
 
 [Guardo gli asini che volano](Guardo%20gli%20asini%20che%20volano/README.md)
 ---
-https://github.com/silviot/bevete-piu-latte/assets/396425/14bb7f05-add3-43c6-b3d0-3e97de80de2b
+https://github.com/silviot/bevete-piu-latte/assets/396425/7fd7f310-4a17-4c5a-a838-6b154c5bd280
 
 La canzone di Geppetto
 ---
